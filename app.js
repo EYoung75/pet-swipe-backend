@@ -6,5 +6,9 @@ const cors = require("cors")
 
 app.listen(port, () => console.log(`We are balling hard Port:${port}`))
 
+app.get("/", (req,res) => {
+    res.send("Hello World !!!! Pets-wipe roxx !!")
+})
+
 app.use(cors())
 app.use(bodyParser.json())
