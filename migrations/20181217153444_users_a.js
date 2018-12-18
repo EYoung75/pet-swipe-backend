@@ -2,7 +2,8 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable("users_a", (users) => {
     users.increments("id")
-    users.integer("pet_info")
+    users.string("user_name_a")
+    users.string("user_name_a_pw")
     users.string("location_city")
     users.string("location_lat")
     users.string("location_long")
