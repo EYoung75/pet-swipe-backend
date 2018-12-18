@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: "pg",
-    connection: "postgresql://localhost/petswipe"
+    connection: "postgresql://localhost/petswipe",
   },
 
 
@@ -12,5 +12,4 @@ module.exports = {
     client: "pg",
     connection: process.env.DATABASE_URL
   }
-
 }
