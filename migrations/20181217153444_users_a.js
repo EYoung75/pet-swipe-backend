@@ -8,7 +8,7 @@ exports.up = function(knex, Promise) {
     users.string("location_lat")
     users.string("location_long")
     users.string("contact_email")
-    users.string("picture_url")
+    users.string("picture_url", 500)
   }) 
 }
 
