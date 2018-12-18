@@ -1,26 +1,26 @@
 
 
 exports.up = function(knex, Promise) {
-    return knex.schema.createTable("pet_info", (users) => {
-        users.increments("id")
-        users.string("pet_name")
-        users.string("species")
-        users.string("pet_gender")
-        users.string("breed")
-        users.string("pet_about")
-        users.string("pet_age")
-        users.string("house_trained")
-        users.string("perfers_house_without")
-        users.string("vacinations")
-        users.string("spay_neuter")
-        users.string("coat_length")
-        users.string("pet_size")
-        users.string("pet_picture_url")
+    return knex.schema.createTable("pet_info", (pets) => {
+        pets.increments("id")
+        pets.string("pet_name")
+        pets.string("species")
+        pets.string("pet_gender")
+        pets.string("breed")
+        pets.string("pet_about", 500)
+        pets.string("pet_age")
+        pets.boolean("house_trained")
+        pets.string("perfers_house_without")
+        pets.boolean("vacinations")
+        pets.boolean("spay_neuter")
+        pets.string("coat_length")
+        pets.string("pet_size")
+        pets.string("pet_picture_url")
     })
   };
   
   exports.down = function(knex, Promise) {
-    return knex.schema.dropTableIfExists("pet_info", (users) => {
+    return knex.schema.dropTableIfExists("pet_info", (pets) => {
   
     })
   };

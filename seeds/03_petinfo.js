@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
           species: "cat",
           pet_gender: "male",
           pet_age: "4",
-          house_trained: "not really",
+          house_trained: false,
           perfers_house_without: "people",
           vacinations: true,
           spay_neuter: true,
