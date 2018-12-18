@@ -45,6 +45,6 @@ exports.seed = function(knex, Promise) {
           contact_email: "petswipers@gmail.com",
           picture_url: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjeq_W3iKrfAhVD-lQKHbQwDU4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F403023%2Favatar_female_person_user_woman_young_icon&psig=AOvVaw3NVCLiFiqHSOzOkZaLbkCf&ust=1545245903176191"
         }
-      ]);
-    });
-};
+      ])
+    })
+}
