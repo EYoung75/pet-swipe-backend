@@ -8,10 +8,13 @@ app.use(cors())
 app.use(bodyParser.json())
 
 
-
 const users_a = require("./users_a")
+const users_b = require("./users_b")
+const pet_info = require("./pet_info")
 
 app.use("/users_a", users_a)
+app.use("/users_b", users_b)
+app.use("/pet_info", pet_info)
 
 app.listen(port, () => console.log(`We are balling hard Port:${port}`))
 
