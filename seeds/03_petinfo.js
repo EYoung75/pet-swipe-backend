@@ -235,15 +235,23 @@ exports.seed = function(knex, Promise) {
           species: "bird",
           pet_gender: "Female",
           pet_age: "31",
+<<<<<<< HEAD
           house_trained: true,
+=======
+          house_trained: false,
+>>>>>>> 19806a4969905ce8cf6fe2be789b5dab492eae88
           preferences: "music to dance to",
           vaccinations: false,
           spay_neuter: false,
           coat_length: "short",
           pet_size: "small",
           pet_picture_url: "https://scontent-lht6-1.cdninstagram.com/vp/5043ed22b78eef6dac27d4b6593811e8/5CD9790C/t51.2885-15/e35/40349823_473729106459638_2420361753746472960_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&se=8&ig_cache_key=MTg0NDAyMTgwNTgxMjE4MTk4MA%3D%3D.2"
+<<<<<<< HEAD
         },
         
+=======
+        }  
+>>>>>>> 19806a4969905ce8cf6fe2be789b5dab492eae88
       ]);
     });
 };

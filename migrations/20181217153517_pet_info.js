@@ -15,7 +15,7 @@ exports.up = function(knex, Promise) {
         pets.boolean("spay_neuter")
         pets.string("coat_length")
         pets.string("pet_size")
-        pets.string("pet_picture_url")
+        pets.string("pet_picture_url", 500)
     })
   };
   
