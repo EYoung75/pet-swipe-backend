@@ -235,7 +235,7 @@ exports.seed = function(knex, Promise) {
           species: "bird",
           pet_gender: "Female",
           pet_age: "31",
-          house_trained: true,
+          house_trained: false,
           preferences: "music to dance to",
           vaccinations: false,
           spay_neuter: false,
