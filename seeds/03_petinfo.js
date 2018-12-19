@@ -202,7 +202,7 @@ exports.seed = function(knex, Promise) {
           pet_picture_url: "https://scontent-lhr3-1.cdninstagram.com/vp/09899b3c1f7157ca67f5b60b7b53137f/5CA29510/t51.2885-15/e35/47141901_783116918688435_6479477666749930590_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MTkzMjM3NDE1OTMxNTE2NjcwNg%3D%3D.2"
         },
         {
-          id: 17, 
+          id: 15, 
           pet_name: "Veratas",
           species: "dog",
           pet_gender: "Female",
