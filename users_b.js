@@ -14,7 +14,7 @@ const queries = require("./queries_users_b.js")
         queries.createAdopteeUser(req.body).then(adoptee => res.status(201).send(adoptee))
     })
     router.delete("/:id", (req, res) => {
-        queries.deleteAdopteeUser(req.params.id).then(adoptee => res.status(204).send(adoptee))
+        queries.deleteAdopteeUser(req.params.id).then(res.sendStatus(204))
     })
     router.put("/:id", (req, res) => {
         queries.updateAccounts(req.params.id, req.body).then(adoptee => res.status(200).send(adoptee))
