@@ -202,7 +202,7 @@ exports.seed = function(knex, Promise) {
           pet_picture_url: "https://scontent-lhr3-1.cdninstagram.com/vp/09899b3c1f7157ca67f5b60b7b53137f/5CA29510/t51.2885-15/e35/47141901_783116918688435_6479477666749930590_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MTkzMjM3NDE1OTMxNTE2NjcwNg%3D%3D.2"
         },
         {
-          id: 17, 
+          id: 15, 
           pet_name: "Veratas",
           species: "dog",
           pet_gender: "Female",
@@ -242,7 +242,7 @@ exports.seed = function(knex, Promise) {
           coat_length: "short",
           pet_size: "small",
           pet_picture_url: "https://scontent-lht6-1.cdninstagram.com/vp/5043ed22b78eef6dac27d4b6593811e8/5CD9790C/t51.2885-15/e35/40349823_473729106459638_2420361753746472960_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&se=8&ig_cache_key=MTg0NDAyMTgwNTgxMjE4MTk4MA%3D%3D.2"
-        },
+        }  
       ]);
     });
 };
