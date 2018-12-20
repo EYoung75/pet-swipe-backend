@@ -4,9 +4,9 @@ Backend repo for petswipe group project
 # Backend database for PetSwipe app
 
 # Created by: 
-Andrew Pedersen
-Evan Young
-Meredith Fontana
+Andrew Pedersen, 
+Evan Young, 
+Meredith Fontana, and 
 Charity Van Buren
 
 # Technologies Used:
