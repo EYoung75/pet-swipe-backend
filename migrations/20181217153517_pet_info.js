@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     return knex.schema.createTable("pet_info", (pets) => {
         pets.increments("id")
         pets.string("pet_name")
+        pets.integer("pet_user").references("users_a.id")
         pets.string("species")
         pets.string("pet_gender")
         pets.string("breed")

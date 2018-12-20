@@ -8,6 +8,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 1, 
           pet_name: "Mr Sparkles",
+          pet_user: 1,
           species: "cat",
           pet_gender: "male",
           pet_age: "4",
@@ -22,6 +23,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 2, 
           pet_name: "Shasta",
+          pet_user: 3,
           species: "dog",
           pet_gender: "female",
           pet_age: "4",
@@ -37,6 +39,7 @@ exports.seed = function(knex, Promise) {
           id: 3, 
           pet_name: "Zyack",
           species: "bird",
+          pet_user: 4,
           pet_gender: "male",
           pet_age: "33",
           house_trained: true,
@@ -51,6 +54,7 @@ exports.seed = function(knex, Promise) {
           id: 4, 
           pet_name: "Bodhi Jay",
           species: "child",
+          pet_user: 1,
           pet_gender: "male",
           pet_age: "3",
           house_trained: false,
@@ -65,6 +69,7 @@ exports.seed = function(knex, Promise) {
           id: 5, 
           pet_name: "Casey",
           species: "dog",
+          pet_user: 3,
           pet_gender: "male",
           pet_age: "7",
           house_trained: true,
@@ -78,6 +83,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 6, 
           pet_name: "Maxwell",
+          pet_user: 4,
           species: "cat",
           pet_gender: "male",
           pet_age: "4",
@@ -92,6 +98,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 7, 
           pet_name: "Lamb Chop",
+          pet_user: 3,
           species: "dog",
           pet_gender: "Female",
           pet_age: "2",
@@ -106,6 +113,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 8, 
           pet_name: "Burt Reynolds",
+          pet_user: 4,
           species: "dog",
           pet_gender: "male",
           pet_age: "6",
@@ -120,6 +128,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 9, 
           pet_name: "Dabo",
+          pet_user: 2,
           species: "dog",
           pet_gender: "Female",
           pet_age: "8",
@@ -134,6 +143,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 10, 
           pet_name: "Turbo",
+          pet_user: 2,
           species: "cat",
           pet_gender: "male",
           pet_age: "5",
@@ -148,6 +158,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 11, 
           pet_name: "Biggie Smalls",
+          pet_user: 2,
           species: "dog",
           pet_gender: "male",
           pet_age: "2",
@@ -162,6 +173,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 12, 
           pet_name: "Kygo",
+          pet_user: 3,
           species: "dog",
           pet_gender: "Female",
           pet_age: "8",
@@ -176,6 +188,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 13, 
           pet_name: "Iggy",
+          pet_user: 2,
           species: "reptile",
           pet_gender: "Female",
           pet_age: "3",
@@ -190,6 +203,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 14, 
           pet_name: "Rammstein",
+          pet_user: 1,
           species: "cat",
           pet_gender: "male",
           pet_age: "14",
@@ -204,6 +218,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 15, 
           pet_name: "Veratas",
+          pet_user: 3,
           species: "dog",
           pet_gender: "Female",
           pet_age: "4",
@@ -218,6 +233,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 16, 
           pet_name: "Cuddles",
+          pet_user: 2,
           species: "dog",
           pet_gender: "male",
           pet_age: "5",
@@ -232,6 +248,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 17, 
           pet_name: "Cooter",
+          pet_user: 1,
           species: "bird",
           pet_gender: "Female",
           pet_age: "31",
