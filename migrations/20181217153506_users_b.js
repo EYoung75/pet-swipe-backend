@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     users.increments("id")
     users.string("user_name_b")
     users.string("user_name_b_pw")
+    users.foreign("pets_info_id").references("pet_info.id")
     users.string("location_city")
     users.string("location_lat")
     users.string("location_long")
